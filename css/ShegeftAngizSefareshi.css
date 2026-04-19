@@ -1,0 +1,11 @@
+.SefareshiClock{
+    position: relative;
+}
+.SefareshiClockShow{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: fit-content;
+    width: fit-content;
+    font-weight: bold;
+}

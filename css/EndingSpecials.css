@@ -1,0 +1,245 @@
+.EndingSpecials{
+    width: 100%;
+    height: 463px;
+    margin-top: 40px;
+}
+.EndingSpecials-center{
+    max-width: 1644px;
+    height: 100%;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.EndingSpecials-center-header{
+    width: 100%;
+    height: 67.6px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+.EndingSpecials-center-header-center{
+    width: 1600px;
+    height: 33.6px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.EndingSpecials-center-header-center img{
+    width: 24px !important;
+    height: 24px !important;
+}
+.EndingSpecials-center-header-center p{
+    font-family: var(--font-family);
+    font-size: 16px;
+    color: #0c0c0c;
+}
+.EndingSpecials-center-header-underline{
+    width: 70px;
+    height: 2px;
+    background-color: #ef3a4f;
+    position: absolute;
+    bottom: 5px;
+    right: 22px;
+}
+.EndingSpecialsSlide{
+    width: 192px !important;
+    height: 385.6px !important;
+    margin-right: 5px;
+    border-left: 1px solid #f0f0f1;
+}
+.EndingSpecialsSlidesItem{
+    width: 100% !important;
+    height: 100% !important;
+    position: relative;
+}
+.EndingSpecialsSlidesItem-items{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.EndingSpecialsSlidesItem-center{
+    width: 94%;
+    height: 94%;
+}
+.EndingSpecialsSlidesItem-center-header{
+    width: 100%;
+    height: 26px;
+    position: relative;
+}
+.EndingSpecialsSlidesItem-center-header img{
+    outline: none;
+    border: none;
+    border-radius: unset;
+    width: 116px;
+    height: 14px;
+    position: absolute;
+    top: calc(50% - 7px);
+}
+.EndingSpecialsSlidesItem-center-content{
+    width: 100%;
+    height: 331.5px;
+}
+.EndingSpecialsSlidesItem-center-content-image{
+    width: 100%;
+    height: 150px;
+}
+.EndingSpecialsSlidesItem-center-content-image img{
+    outline: none;
+    border: none;
+    border-radius: unset;
+    width: 100%;
+    height: 100%;
+}
+.EndingSpecialsSlidesItem-center-content-ProductInfo{
+    width: 100%;
+    height: 177.5px;
+}
+.EndingSpecialsSlidesItem-center-content-ProductInfo-header{
+    width: 100%;
+    height: 52px;
+    display: flex;
+    align-items: center;
+}
+.EndingSpecialsSlidesItem-center-content-ProductInfo-header h3{
+    width: 100%;
+    height: fit-content;
+    color: #3f4064;
+    font-size: 12px;
+    font-family: var(--font-family);
+    text-align: right;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+}
+.EndingSpecialsSlidesItem-center-content-ProductInfo-Mojoodi{
+    width: 100%;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+.EndingSpecialsSlidesItem-center-content-ProductInfo-Mojoodi p{
+    font-family: var(--font-family);
+    color: #ef394e;
+    font-size: 11px;
+    font-weight: normal;
+    width: 100%;
+    height: fit-content;
+    text-align: right;
+}
+.EndingSpecialsSlidesItem-center-content-ProductInfo-Price{
+    width: 100%;
+    height: 63.63px;
+}
+.EndingSpecialsSlidesItem-center-content-ProductInfo-Price-main{
+    width: 100%;
+    height: 33.6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.EndingSpecialsSlidesItem-center-content-ProductInfo-Price-main-Off{
+    width: 34px;
+    height: 20px;
+    background-color: #ef394e;
+    border-radius: 10px;
+}
+.EndingSpecialsSlidesItem-center-content-ProductInfo-Price-main-Off span{
+    font-family: var(--font-family);
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
+.EndingSpecialsSlidesItem-center-content-ProductInfo-Price-main-available{
+    width: 70px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 2px;
+}
+.EndingSpecialsSlidesItem-center-content-ProductInfo-Price-main-available span{
+    height: fit-content;
+    width: 54px;
+    font-family: var(--font-family);
+    font-size: 16px;
+    color: #3f4064;
+}
+.EndingSpecialsSlidesItem-center-content-ProductInfo-Price-underlined{
+    width: 100%;
+    height: 26px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.EndingSpecialsSlidesItem-center-content-ProductInfo-Price-underlined div{
+    font-family: var(--font-family);
+    color: #c0c2c5;
+    font-size: 12px;
+    left: 17px;
+    text-decoration: line-through; 
+    position: absolute;     
+}
+.EndingSpecialsSlidesItem-center-content-ProductInfo-Left{
+    width: 100%;
+    height: 34px;
+}
+.EndingSpecialsSlidesItem-center-content-ProductInfo-Left-bar{
+    width: 100%;
+    height: 4px;
+    background-color: #f0f0f1;
+    display: flex;
+    justify-content: end;
+    border-radius: 50px;
+}
+.EndingSpecialsSlidesItem-center-content-ProductInfo-Left-bar div{
+    height: 100%;
+    background-color: #ef394e;
+    width: 90%;
+    border-radius: 50px;
+}
+.EndingSpecialsSlidesItem-center-content-ProductInfo-Left-clock{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.EndingSpecialsSlidesItem-center-content-ProductInfo-Left-clock-percentage{
+    width: 80px;
+    display: flex;
+    gap: 5px;
+    height: 70%;
+}
+.EndingSpecialsSlidesItem-center-content-ProductInfo-Left-clock-percentage h3{
+    font-family: var(--font-family);
+    font-size: 10px;
+    width: fit-content;
+    height: fit-content;
+    color: #ef394e;
+}
+.EndingSpecialsSlidesItem-center-content-ProductInfo-Left-clock-percentage p{
+    font-family: var(--font-family);
+    font-size: 10px;
+    width: fit-content;
+    height: fit-content;
+    color: #81858b;
+}
+.EndingSpecialsSlidesItem-center-content-ProductInfo-Left-clock-show{
+    width: 90px;
+    height: 70%;
+    color: #ef394e;
+    font-size: 12px;
+    font-family: var(--font-family);
+    text-align: left;
+}
+.EndingSpecialsSlideLast{
+    border-left: none;
+}

@@ -1,0 +1,72 @@
+.SecondBanner{
+    width: 100%;
+    height: 110px;
+    margin-top: 10px;
+}
+.SecondBanner-center{
+    max-width: 1644px;
+    height: 100%;
+    background-color: #ebe3ea;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 800px;
+}
+.SecondBanner-center-right{
+    width: 461px;
+    height: 83px;
+}
+.SecondBanner-center-left{
+    width: 270px;
+    height: 79px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.SecondBanner-center-left-top{
+    width: 100%;
+    height: 33.6px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.SecondBanner-center-left-top span{
+    font-family: var(--font-family);
+    font-size: 16px;
+    color: #b12ba4;
+    font-weight: bold;
+}
+.SecondBanner-center-left-bottom{
+    width: 100%;
+    height: 42px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.SecondBanner-center-left-bottom div{
+    width: 40px !important;
+    height: 40px !important;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.SecondBanner-center-left-bottom p{
+    font-family: var(--font-family);
+    font-size: 12px;
+    color: #b12ba4;
+}
+.NumSpan{
+    font-family: var(--font-family);
+    font-size: 15px;
+    color: #b12ba4;
+}
+.TextSpan{
+    font-family: var(--font-family);
+    font-size: 7px;
+    color: #b12ba4;
+}

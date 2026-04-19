@@ -1,0 +1,16 @@
+.static-banner{
+    width: 100%;
+    height: 64px;  
+    display: flex;
+    justify-content: center;
+}
+.static-banner-center{
+    width: 1644px;
+    max-width: 1644px;
+    height: 100%;
+    background-color: bisque;
+}
+.static-banner-center img{
+    width: 100%;
+    height: 100%;
+}

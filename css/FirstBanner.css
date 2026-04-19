@@ -1,0 +1,117 @@
+.FirstBanner{
+    width: 100%;
+    height: 110px;
+    margin-top: 25px;
+}
+.FirstBanner-center{
+    max-width: 1644px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 400px;
+    background-color: #ebeeed;
+    border-radius: 20px;
+}
+.FirstBanner-center-right{
+    width: 466px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+}
+.FirstBanner-center-right-right{
+    width: 356px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.FirstBanner-center-right-right img{
+    width: 66px;
+    height: 62px;
+}
+.FirstBanner-center-right-right div img{
+    width: 250px;
+    height: 28px;
+}
+.FirstBanner-center-right-left{
+    width: 110px;
+    height: 28px;
+    background-color: #029a49;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.FirstBanner-center-right-left{
+    font-family: var(--font-family);
+    color: white;
+    font-size: 14px;
+}
+.FirstBanner-center-left{
+    width: 650px;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.FirstBanner-center-left-right{
+    width: 492px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.FirstBanner-center-left-right-items{
+    width: 74px;
+    height: 74px;
+    display: block;
+    text-decoration: none;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: white;
+}
+.FirstBanner-center-left-right-items img{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+}
+.FirstBanner-center-left-right-items div{
+    width: 34px !important;
+    height: 20px;
+    outline: none;
+    border: none;
+    background-color: #d32f2f;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    right: 0;
+    bottom: 0;
+}
+.FirstBanner-center-left-right-items div span{
+    font-family: var(--font-family);
+    font-size: 12px;
+    color: white;
+}
+.FirstBanner-center-left-left{
+    width: 148px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+.FirstBanner-center-left-left span{
+    font-family: var(--font-family);
+    font-size: 12px;
+    color: #029a49;
+    font-weight: bold;
+}

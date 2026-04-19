@@ -1,0 +1,61 @@
+.PurchaseBySorting{
+    width: 100%;
+    height: 460px; 
+    margin-top: 15px;
+}
+.PurchaseBySorting-center{
+    max-width: 1336px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.PurchaseBySorting-center-header h3{
+    font-family: var(--font-family);
+    font-size: 21px;
+    color: black;
+    font-weight: normal;
+    font-weight: bold;
+}
+.PurchaseBySorting-center-header{
+    width: 230px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: calc(50% - 115px);
+    top: 20px;
+}
+.PurchaseBySortingSlides{
+    height: 324px !important;
+    width: 200px !important;
+    margin-top: 100px;
+    position: relative;
+}
+.PurchaseBySortingSlides a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+}
+.first-item{
+    position: absolute;
+    top: 0;
+    right: calc(50% - 75px);
+}
+.second-item{
+    position: absolute;
+    bottom: 0;
+    right: calc(50% - 75px);
+}
+.PurchaseBySortingSlides a div img{
+    width: 100px;
+    height: 100px;
+}
+.PurchaseBySortingSlides a p{
+    font-family: var(--font-family);
+    font-size: 12px;
+    color: #0c0c0c;
+    font-weight: bold;
+}

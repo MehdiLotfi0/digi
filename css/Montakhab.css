@@ -1,0 +1,131 @@
+.Montakhab{
+    width: 100%;
+    height: 813px;
+    margin-top: 15px;
+}
+.Montakhab-center{
+    width: 1336px;
+    max-width: 1336px;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+}
+.Montakhab-center-header{
+    width: 1310px;
+    max-width: 1310px;
+    height: 75px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.NoBorder{
+    border-left: none !important;
+}
+.Montakhab-center-header h3{
+    color: black;
+    font-family: var(--font-family);
+    font-size: 21px;
+    font-weight: normal;
+}
+.Montakhab-center-Products{
+    width: 1310px;
+    max-width: 1310px;
+    height: 727px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.Montakhab-center-Products-FirstColumn{
+    width: 100%;
+    height: 242px;
+    display: flex;
+    column-gap: 19px;
+    border-bottom: 0.5px solid #f0f0f1;
+}
+.Montakhab-center-Products-SecondColumn{
+    width: 100%;
+    height: 242px;
+    display: flex;
+    column-gap: 19px;
+    border-bottom: 0.5px solid #f0f0f1;
+}
+.Montakhab-center-Products-ThirdColumn{
+    width: 100%;
+    height: 242px;
+    display: flex;
+    column-gap: 19px;
+}
+.Montakhab-center-Products-wrapper{
+    width: 218.36px;
+    height: 242.51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-left: 0.5px solid #f0f0f1;
+}
+.Montakhab-center-Products-wrapper-items{
+    width: 201.47px;
+    height: 217.63px;
+}
+.Montakhab-center-Products-wrapper-items-images{
+    width: 100%;
+    height: 154px;
+}
+.Montakhab-center-Products-wrapper-items-price{
+    width: 100%;
+    height: 63.63px;
+}
+.Montakhab-center-Products-wrapper-items-price-main{
+    width: 100%;
+    height: 33.6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Montakhab-center-Products-wrapper-items-price-unmain{
+    width: 100%;
+    height: 26.03px;
+}
+.Montakhab-center-Products-wrapper-items-price-unmain span{
+    color: #c0c2c5;
+    font-size: 12px;
+    font-family: var(--font-family);
+    width: 45.53px;
+    height: 100%;
+    text-decoration: line-through;
+    display: flex;
+    align-items: center;
+    margin-right: 126px;
+}
+.Montakhab-center-Products-wrapper-items-price-main-discount{
+    width: 34px;
+    height: 20px;
+    background-color: #d32f2f;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Montakhab-center-Products-wrapper-items-price-main-discount span{
+    color: white;
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: bold;
+}
+.Montakhab-center-Products-wrapper-items-price-main-price span{
+    font-family: var(--font-family);
+    color: #3f4064;
+    font-size: 16px;
+    margin-left: 27px;
+}
+.svg-styling{
+    transform: translate(25px , 4px);
+}
+.HotDrinksSwiper{
+    max-width: 1327px;
+}

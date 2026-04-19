@@ -1,0 +1,11 @@
+.sliderSM{
+    width: 100%;
+    max-width: 1920px;
+    height: 400px;
+    margin: 0 auto;
+}
+.slider-img-SM{
+    max-width: 1920px;
+    width: fit-content;
+    height: fit-content;
+}

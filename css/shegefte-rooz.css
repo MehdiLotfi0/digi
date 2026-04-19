@@ -1,0 +1,329 @@
+.shegefte-rooz{
+    width: 100%;
+    height: 360px;
+    margin-top: 15px;
+}
+.shegefte-rooz-center{
+    max-width: 1644px;
+    height: 100%;
+    background-color: #e3113c;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.shegefte-rooz-center-header{
+    max-width: 1612px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.shegefte-rooz-center-header-center{
+    width: 100%;
+    height: 33.6px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.shegefte-rooz-center-header-center div{
+    width: 24px !important;
+    height: 24px !important;
+}
+.shegefte-rooz-center-header-center p{
+    font-family: var(--font-family);
+    font-size: 16px;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+}
+.shegefte-rooz-center-swiper{
+    height: 258.16px;
+    margin-top: 15px;
+    margin-right: 16px;
+}
+.ShegeftRoozSlides{
+    width: 682.67px !important;
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+.ShegeftRoozProducts{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-radius: 10px;
+    position: absolute;
+    text-decoration: none;
+    top: 0;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+.ShegeftRoozProducts-center{
+    width: 650.67px;
+    height: 242.15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ShegeftRoozProducts-center-header{
+    width: 100%;
+    height: 26.06px;
+    position: relative;
+}
+.ShegeftRoozProducts-center-header img{
+    outline: none;
+    border-radius: unset;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 6px;
+}
+.ShegeftRoozProducts-center-product{
+    width: 100%;
+    height: 212.13px;
+    display: flex;
+    justify-content: space-between;
+}
+.ShegeftRoozProducts-center-product-picture{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.ShegeftRoozProducts-center-product-picture div{
+    width: 100%;
+    height: 200px;
+}
+.ShegeftRoozProducts-center-product-picture div img{
+    outline: none;
+    border-radius: unset;
+    width: 100%;
+    height: 100%;
+}
+.ShegeftRoozProducts-center-product-content-empty{
+    width: 438px;
+    height: 28px;
+}
+.ShegeftRoozProducts-center-product-content-text{
+    width: 438px;
+    height: 52px;
+}
+.ShegeftRoozProducts-center-product-content-text p{
+    font-family: var(--font-family);
+    font-size: 12px;
+    text-align: right;
+    color: #3f4064;
+}
+.ShegeftRoozProducts-center-product-content-color{
+    width: 438px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+.product-color{
+    width: 48px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-color p{
+    font-family: var(--font-family);
+    font-size: 10px;
+    color: #424750;
+}
+.product-color div{
+    width: 14px;
+    height: 14px;
+    background-color: black;
+    border-radius: 50%;
+}
+.product-rates{
+    width: 42px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.product-rates p{
+    font-family: var(--font-family);
+    color: #3f4064;
+    font-size: 12px;
+}
+.product-rates img{
+    outline: none;
+    border: none;
+    border-radius: unset;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 0;
+    top: calc(50% - 16px / 2);
+}
+.ShegeftRoozProducts-center-product-content-price{
+    width: 438px;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-top: 5px;
+}
+.product-main-price{
+    width: 100%;
+    height: 33.6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.off-percentage{
+    width: 34px;
+    height: 20px;
+    background-color: #e3113c;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.off-percentage span{
+    color: white;
+    font-size: 12px;
+    font-family: var(--font-family);
+}
+.product-main-price-main{
+    width: 85px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.product-main-price-main div{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.product-main-price-main div span{
+    font-family: var(--font-family);
+    font-size: 16px;
+    color: #3f4064;
+    width: fit-content;
+    font-weight: bold;
+}
+.product-main-price-main svg{
+    position: absolute;
+    left: 0;
+    top: calc(50% - 8px);
+}
+.product-off-price{
+    width: 100%;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.product-off-price div{
+    font-family: var(--font-family);
+    font-size: 12px;
+    height: fit-content;
+    color: #c0c2c5;
+    text-decoration: line-through;
+    position: absolute;
+    left: 23px;
+}
+.ShegeftRoozProducts-center-product-content-timeLimit{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.ShegeftRoozProducts-center-product-content-timeLimit div{
+    font-family: var(--font-family);
+    color: #ef394e;
+    font-size: 12px;
+}
+.ShegeftRoozSlidesItems{
+    width: 100% !important;
+    height: 100% !important;
+    position: relative;
+}
+.LastProduct-overlay{
+    width: 100% !important;
+    height: 100% !important;
+    background-color: #2b2b2b;
+    position: absolute !important;
+    top: 0;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+.LastProduct-overlay-LockIcon{
+    width: 80px;
+    height: 80px;
+    background-color: #ef4056;
+    position: absolute;
+    right: calc(50% - 40px);
+    bottom: calc(50%);
+    border-radius: 50%;
+}
+.LastProduct-overlay-LockIcon img{
+    outline: none;
+    border: none;
+    border-radius: unset;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    right: calc(50% - 24px);
+    top: calc(50% - 24px);
+}
+.LastProduct-overlay-info{
+    width: 350px;
+    height: 40px;
+    position: absolute;
+    right: calc(50% - 175px);
+    top: calc(50% + 30px);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.LastProduct-overlay-info span{
+    font-family: var(--font-family);
+    font-size: 15px;
+    color: white;
+    display: flex;
+    font-weight: bold;
+}
+.LastProduct-overlay-info span span{
+    width: fit-content;
+}
+.inform-Me{
+    width: 130px;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}
+.inform-Me img{
+    border: none;
+    outline: none;
+    border-radius: unset;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: calc(50% - 12px);
+    right: 10px;
+}
+.inform-Me p{
+    font-family: var(--font-family);
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    left: 10px;
+    top: calc(50% - 10px);
+}

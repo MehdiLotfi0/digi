@@ -1,0 +1,127 @@
+.ThirdBanner{
+    width: 100%;
+    height: 110px;
+    margin-top: 15px;
+}
+.ThirdBanner-center{
+    max-width: 1644px;
+    height: 100%;
+    background-color: #f5f3f3;
+    margin: auto;
+    display: flex;
+    border-radius: 15px;
+    gap: 300px;
+    align-items: center;
+    justify-content: space-around;
+}
+.ThirdBanner-center-right{
+    width: 25%;
+    height: 50%;
+    display: flex;
+    padding: 5px;
+    margin-top: 10px;
+}
+.ThirdBanner-center-right-right{
+    width: 246px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.ThirdBanner-center-right-right img{
+    width: 206px;
+    height: 28px;
+}
+.ThirdBanner-center-right-right span{
+    font-family: var(--font-family);
+    font-size: 11px;
+    color: #0c0c0c;
+}
+.ThirdBanner-center-right-left{
+    width: 108px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.clock{
+    width: 28px;
+    height: 28px;
+    background-color: white;
+    border-radius: 5px;
+    font-family: var(--font-family);
+    font-size: 15px;
+    color: #23254e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.ThirdBanner-center-left{
+    width: 40%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ThirdBanner-center-left-items{
+    width: 492px;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ThirdBanner-center-left-items-img{
+    width: 74px;
+    height: 74px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.ThirdBanner-center-left-items-img img{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+}
+.ThirdBanner-center-left-items-percentage{
+    width: 34px;
+    height: 20px;
+    background-color: #d32f2f;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-family: var(--font-family);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.ThirdBanner-center-left-items a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 74px;
+    height: 74px;
+    position: relative;
+}
+.ThirdBanner-center-left-left{
+    width: 148px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+.ThirdBanner-center-left-left span{
+    font-family: var(--font-family);
+    font-size: 12px;
+    color: #ef394e;
+    font-weight: bold;
+}
