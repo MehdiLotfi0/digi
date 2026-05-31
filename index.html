@@ -5919,111 +5919,112 @@
     </div>
 
     </div>
-    <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
-    <script src="./node_modules/swiper/swiper-bundle.js"></script>
-    <script>
-        // دکمه بازگشت به بالا
-        let BackToTop = document.querySelector('.back-to-top');
-        if (BackToTop) {
-            BackToTop.addEventListener('click', function () {
-                window.scrollTo({
-                    top: 0,
-                    behavior: 'smooth'
-                });
-            });
-        }
 
-        // منتظر می‌مانیم تا کل صفحه بارگذاری شود
-        document.addEventListener('DOMContentLoaded', function () {
-
-            // 1. Swiper استوری‌ها (داستان‌ها)
-            const storySwiper = new Swiper(".mySwiper", {
-                slidesPerView: "auto",
-                spaceBetween: 8,
-                freeMode: true,
-                navigation: {
-                    nextEl: ".mySwiper .swiper-button-next",
-                    prevEl: ".mySwiper .swiper-button-prev",
-                },
-                breakpoints: {
-                    320: { slidesPerView: 4.5 },
-                    480: { slidesPerView: 6.5 },
-                    768: { slidesPerView: 8.5 },
-                    1024: { slidesPerView: 10.5 },
-                    1200: { slidesPerView: 12.5 }
-                }
-            });
-
-            // 2. Swiper محصولات شگفت‌انگیز
-            const amazingSwiper = new Swiper(".myswiper", {
-                slidesPerView: "auto",
-                spaceBetween: 8,
-                navigation: {
-                    nextEl: ".myswiper .swiper-button-next",
-                    prevEl: ".myswiper .swiper-button-prev",
-                },
-                breakpoints: {
-                    320: { slidesPerView: 1.2 },
-                    480: { slidesPerView: 2.2 },
-                    768: { slidesPerView: 4.2 },
-                    1024: { slidesPerView: 6.2 },
-                    1200: { slidesPerView: 8.2 }
-                }
-            });
-
-            // 3. Swiper برندها
-            const brandsSwiper = new Swiper(".mywiper", {
-                slidesPerView: "auto",
-                spaceBetween: 8,
-                navigation: {
-                    nextEl: ".mywiper .swiper-button-next",
-                    prevEl: ".mywiper .swiper-button-prev",
-                },
-                breakpoints: {
-                    320: { slidesPerView: 2.3 },
-                    480: { slidesPerView: 3.3 },
-                    768: { slidesPerView: 5.3 },
-                    1024: { slidesPerView: 7.3 },
-                    1200: { slidesPerView: 9.3 }
-                }
-            });
-
-            // 4. Swiper پرفروش‌ترین‌ها
-            const popularSwiper = new Swiper(".myper", {
-                slidesPerView: 1,
-                spaceBetween: 16,
-                navigation: {
-                    nextEl: ".myper .swiper-button-next",
-                    prevEl: ".myper .swiper-button-prev",
-                },
-                breakpoints: {
-                    320: { slidesPerView: 1 },
-                    640: { slidesPerView: 2 },
-                    768: { slidesPerView: 3 },
-                    1024: { slidesPerView: 4 }
-                }
-            });
-
-            // 5. اسلایدر اصلی (بنرهای بزرگ)
-            const mainSlider = new Swiper(".mySlider", {
-                spaceBetween: 30,
-                centeredSlides: true,
-                autoplay: {
-                    delay: 2500,
-                    disableOnInteraction: false,
-                },
-                pagination: {
-                    el: ".mySlider .swiper-pagination",
-                    clickable: true,
-                },
-                navigation: {
-                    nextEl: ".mySlider .swiper-button-next",
-                    prevEl: ".mySlider .swiper-button-prev",
-                },
-                loop: true,
+</body>
+<script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+<script src="./node_modules/swiper/swiper-bundle.js"></script>
+<script>
+    // دکمه بازگشت به بالا
+    let BackToTop = document.querySelector('.back-to-top');
+    if (BackToTop) {
+        BackToTop.addEventListener('click', function () {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
             });
         });
-    </script>
-</body>
+    }
+
+    // منتظر می‌مانیم تا کل صفحه بارگذاری شود
+    document.addEventListener('DOMContentLoaded', function () {
+
+        // 1. Swiper استوری‌ها (داستان‌ها)
+        const storySwiper = new Swiper(".mySwiper", {
+            slidesPerView: "auto",
+            spaceBetween: 8,
+            freeMode: true,
+            navigation: {
+                nextEl: ".mySwiper .swiper-button-next",
+                prevEl: ".mySwiper .swiper-button-prev",
+            },
+            breakpoints: {
+                320: { slidesPerView: 4.5 },
+                480: { slidesPerView: 6.5 },
+                768: { slidesPerView: 8.5 },
+                1024: { slidesPerView: 10.5 },
+                1200: { slidesPerView: 12.5 }
+            }
+        });
+
+        // 2. Swiper محصولات شگفت‌انگیز
+        const amazingSwiper = new Swiper(".myswiper", {
+            slidesPerView: "auto",
+            spaceBetween: 8,
+            navigation: {
+                nextEl: ".myswiper .swiper-button-next",
+                prevEl: ".myswiper .swiper-button-prev",
+            },
+            breakpoints: {
+                320: { slidesPerView: 1.2 },
+                480: { slidesPerView: 2.2 },
+                768: { slidesPerView: 4.2 },
+                1024: { slidesPerView: 6.2 },
+                1200: { slidesPerView: 8.2 }
+            }
+        });
+
+        // 3. Swiper برندها
+        const brandsSwiper = new Swiper(".mywiper", {
+            slidesPerView: "auto",
+            spaceBetween: 8,
+            navigation: {
+                nextEl: ".mywiper .swiper-button-next",
+                prevEl: ".mywiper .swiper-button-prev",
+            },
+            breakpoints: {
+                320: { slidesPerView: 2.3 },
+                480: { slidesPerView: 3.3 },
+                768: { slidesPerView: 5.3 },
+                1024: { slidesPerView: 7.3 },
+                1200: { slidesPerView: 9.3 }
+            }
+        });
+
+        // 4. Swiper پرفروش‌ترین‌ها
+        const popularSwiper = new Swiper(".myper", {
+            slidesPerView: 1,
+            spaceBetween: 16,
+            navigation: {
+                nextEl: ".myper .swiper-button-next",
+                prevEl: ".myper .swiper-button-prev",
+            },
+            breakpoints: {
+                320: { slidesPerView: 1 },
+                640: { slidesPerView: 2 },
+                768: { slidesPerView: 3 },
+                1024: { slidesPerView: 4 }
+            }
+        });
+
+        // 5. اسلایدر اصلی (بنرهای بزرگ)
+        const mainSlider = new Swiper(".mySlider", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".mySlider .swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".mySlider .swiper-button-next",
+                prevEl: ".mySlider .swiper-button-prev",
+            },
+            loop: true,
+        });
+    });
+</script>
 
 </html>
