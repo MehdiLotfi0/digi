@@ -65,8 +65,12 @@
     overflow: scroll;
     display: none;  
 }
+
 .MegaMenu-sidebar-item:hover .MegaMenu-sidebar-content{
     display: block;
+}
+.active-menu:hover .MegaMenu-sidebar-content{
+    display:block;
 }
 .MegaMenu-sidebar-content-content{
     width: 100% !important;
